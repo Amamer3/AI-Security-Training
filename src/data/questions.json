@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "What is a deepfake?",
+    "options": [
+      "A computer virus that deletes files",
+      "AI-generated media that manipulates someone's likeness",
+      "A fake social media profile",
+      "A phishing email"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfakes are AI-generated videos, images, or audio that convincingly impersonate real people, often to mislead."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is a common sign of a deepfake video?",
+    "options": [
+      "Slight facial distortions and unnatural blinking",
+      "High video quality and smooth speech",
+      "Perfect lighting and background consistency",
+      "Always having subtitles"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deepfakes often fail to replicate natural human blinking and may show distortions around the eyes and mouth."
+  },
+  {
+    "id": 3,
+    "question": "Which technology is most commonly used to create deepfakes?",
+    "options": [
+      "Blockchain",
+      "Neural networks and AI",
+      "Cloud storage",
+      "Quantum computing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfakes are made using AI models, especially deep neural networks and GANs (Generative Adversarial Networks)."
+  },
+  {
+    "id": 4,
+    "question": "If you suspect a video is a deepfake, what should you do first?",
+    "options": [
+      "Immediately share it with others to get their opinion",
+      "Verify it using trusted news sources or fact-checkers",
+      "Delete it from your device",
+      "Report it as spam without checking"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Always verify suspicious media with credible sources before reacting or sharing."
+  },
+  {
+    "id": 5,
+    "question": "Which of these can help detect deepfakes?",
+    "options": [
+      "Reverse image search",
+      "Looking for inconsistent lighting or shadows",
+      "Checking lip-sync accuracy",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Deepfake detection requires checking multiple cues: lighting, shadows, lip-sync, and even reverse search tools."
+  },
+  {
+    "id": 6,
+    "question": "Why are deepfakes dangerous?",
+    "options": [
+      "They can entertain people",
+      "They can spread misinformation, harm reputations, or enable fraud",
+      "They reduce internet speed",
+      "They are always illegal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfakes can be misused for fraud, blackmail, disinformation, and reputational damage."
+  },
+  {
+    "id": 7,
+    "question": "Which of these is a safe response if you receive a suspected deepfake attack?",
+    "options": [
+      "Confront the sender immediately",
+      "Avoid reacting emotionally and report it to authorities/IT/security",
+      "Share it to warn friends",
+      "Ignore it completely"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stay calm, do not amplify, and report it to security professionals or authorities."
+  },
+  {
+    "id": 8,
+    "question": "What is a common indicator in audio deepfakes?",
+    "options": [
+      "Unnatural pauses, robotic tone, or inconsistent breathing sounds",
+      "Clear, natural flow of speech",
+      "Background noises like cars or birds",
+      "Studio-quality sound"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Audio deepfakes often lack natural breathing, pauses, or have mismatched tones."
+  },
+  {
+    "id": 9,
+    "question": "How can organizations protect against deepfake scams?",
+    "options": [
+      "By banning all videos",
+      "By training employees on detection and verification",
+      "By disabling social media",
+      "By using only landline phones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Employee awareness and training are critical in recognizing and stopping deepfake scams."
+  },
+  {
+    "id": 10,
+    "question": "Which sector has been most affected by deepfake financial scams?",
+    "options": [
+      "Healthcare",
+      "Banking & finance",
+      "Sports",
+      "Education"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfake frauds are increasingly used in banking and financial scams, such as impersonating CEOs in video calls."
+  },
+  {
+    "id": 11,
+    "question": "Which clue might suggest a photo is a deepfake?",
+    "options": [
+      "Perfectly symmetrical facial features",
+      "Strange artifacts in the background",
+      "Blurry or mismatched ears and teeth",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Deepfake photos often show symmetry, odd teeth, distorted backgrounds, or mismatched ears."
+  },
+  {
+    "id": 12,
+    "question": "What should you do if a colleague receives a deepfake impersonation of your boss asking for money?",
+    "options": [
+      "Approve the request immediately",
+      "Ignore it",
+      "Verify the request through another trusted communication channel",
+      "Delete it silently"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Always verify unusual requests directly with the person via a trusted channel before taking action."
+  },
+  {
+    "id": 13,
+    "question": "Which of these tools can help in spotting deepfakes?",
+    "options": [
+      "Deepware Scanner",
+      "Microsoft Video Authenticator",
+      "Sensity AI",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Specialized tools exist to detect deepfakes and analyze authenticity of media files."
+  },
+  {
+    "id": 14,
+    "question": "What is the best way to respond if someone shares a suspected deepfake with you?",
+    "options": [
+      "Spread it widely to raise awareness",
+      "Report it to a fact-checker or platform moderator",
+      "Save it for personal use",
+      "Edit and repost it"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Responsible action is to report and verify, not to amplify misinformation."
+  },
+  {
+    "id": 15,
+    "question": "Why do attackers use deepfakes in social engineering?",
+    "options": [
+      "To create funny memes",
+      "To gain trust by impersonating familiar people",
+      "To improve video quality",
+      "To test AI models"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Attackers use deepfakes to impersonate trusted figures, making scams more convincing."
+  },
+  {
+    "id": 16,
+    "question": "What is the ethical use of deepfake technology?",
+    "options": [
+      "Spreading false political messages",
+      "Fraudulent impersonation",
+      "Creating movie effects or satire with consent",
+      "Identity theft"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Deepfakes can be ethically used in film, entertainment, and education if consent is given."
+  },
+  {
+    "id": 17,
+    "question": "Which legal risk can arise from deepfakes?",
+    "options": [
+      "Defamation lawsuits",
+      "Fraud charges",
+      "Privacy violations",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Misusing deepfakes may lead to defamation, fraud, harassment, or privacy lawsuits."
+  },
+  {
+    "id": 18,
+    "question": "Which of these best describes a deepfake phishing scam?",
+    "options": [
+      "An email with spelling errors",
+      "A fake video call from a 'manager' requesting money transfer",
+      "A suspicious link in SMS",
+      "A pop-up ad"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfake phishing often involves fake video or audio calls impersonating trusted persons."
+  },
+  {
+    "id": 19,
+    "question": "Which body part is most often distorted in poorly made deepfakes?",
+    "options": [
+      "Hands and fingers",
+      "Feet",
+      "Elbows",
+      "Shoulders"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deepfake AI struggles with hands and fingers, often showing too many or distorted shapes."
+  },
+  {
+    "id": 20,
+    "question": "What should you do if you discover a deepfake targeting you personally?",
+    "options": [
+      "Publicly argue with the attacker",
+      "Stay silent to avoid attention",
+      "Document the evidence, report to authorities/platform, and seek support",
+      "Retaliate with your own deepfake"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Always collect evidence, report the attack, and seek legal/security support."
+  },
+  {
+    "id": 21,
+    "question": "You receive a video call from your 'CEO' asking for an urgent money transfer. What is the safest first step?",
+    "options": [
+      "Transfer the money immediately",
+      "Ask a colleague if they also got the request",
+      "End the call and verify through an official channel (phone/email)",
+      "Record the call and post it online"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Deepfake scams often impersonate leaders. Always verify requests through official channels."
+  },
+  {
+    "id": 22,
+    "question": "A politician's video surfaces online making shocking statements. Before sharing it, you should…",
+    "options": [
+      "Post it immediately to raise awareness",
+      "Verify through official media outlets or fact-checkers",
+      "Trust it since it looks real",
+      "Add your own commentary and share"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Many deepfakes target public figures. Verification prevents the spread of misinformation."
+  },
+  {
+    "id": 23,
+    "question": "In a deepfake video, what subtle signs might you notice when someone turns their head?",
+    "options": [
+      "Background perfectly aligned",
+      "Lighting shifts unnaturally or face blurs slightly",
+      "Everything looks identical from all angles",
+      "The voice gets clearer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AI struggles with side profiles and lighting changes, creating distortions during head movement."
+  },
+  {
+    "id": 24,
+    "question": "You receive a suspicious audio voicemail from your bank. Which step helps confirm if it's real?",
+    "options": [
+      "Call back using the number in the voicemail",
+      "Use the official bank hotline on their website",
+      "Reply directly to the voicemail",
+      "Ignore and assume it's safe"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Always use official contact details from verified sources, not the message itself."
+  },
+  {
+    "id": 25,
+    "question": "Which of these is a practical method for employees to spot a deepfake email/video?",
+    "options": [
+      "Training on red flags and phishing simulations",
+      "Always trusting official-looking emails",
+      "Relying only on IT team detection tools",
+      "Ignoring unusual requests"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Awareness training equips employees to recognize deepfake cues and respond safely."
+  },
+  {
+    "id": 26,
+    "question": "In a fake video, the person's teeth often look…",
+    "options": [
+      "Too perfect and evenly spaced",
+      "Natural with small imperfections",
+      "Crooked and realistic",
+      "Consistently sharp and detailed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deepfake AI often produces unnaturally perfect or distorted teeth."
+  },
+  {
+    "id": 27,
+    "question": "If a friend sends you a shocking deepfake of a celebrity, the best reaction is…",
+    "options": [
+      "Laugh and share it with others",
+      "Report it to the platform and inform your friend it may be fake",
+      "Save it for later use",
+      "Comment publicly on the post"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Do not spread misinformation. Instead, educate your friend and report the post."
+  },
+  {
+    "id": 28,
+    "question": "In video-based deepfakes, which area of the body often glitches most?",
+    "options": [
+      "Eyes and mouth",
+      "Legs",
+      "Back",
+      "Hair"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lip-sync and eye movements are difficult for AI to replicate naturally."
+  },
+  {
+    "id": 29,
+    "question": "Which step strengthens personal protection against deepfake impersonation?",
+    "options": [
+      "Using complex passwords and enabling multi-factor authentication",
+      "Posting all personal videos online",
+      "Sharing voice notes publicly",
+      "Ignoring suspicious activity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Strong security measures make it harder for attackers to collect material to train deepfakes."
+  },
+  {
+    "id": 30,
+    "question": "You notice mismatched earrings and distorted backgrounds in a photo. What does this suggest?",
+    "options": [
+      "Low camera quality",
+      "Photo editing or a possible deepfake",
+      "The person moved quickly",
+      "A shadow problem"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfakes often fail to replicate symmetrical objects like earrings or backgrounds."
+  },
+  {
+    "id": 31,
+    "question": "During a video, the person's face looks sharper than the background. What does this mean?",
+    "options": [
+      "They used a good camera",
+      "It might be AI-generated with blended layering issues",
+      "It's a normal effect of video compression",
+      "They're using a filter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfakes may have different focus/sharpness levels between face and background."
+  },
+  {
+    "id": 32,
+    "question": "What's the best action if you receive a deepfake targeting your reputation?",
+    "options": [
+      "Immediately post a denial on social media only",
+      "Document, report, and contact legal/security professionals",
+      "Ask friends to share it to expose the attacker",
+      "Ignore and hope it disappears"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Evidence and legal/security support are essential for protecting reputation."
+  },
+  {
+    "id": 33,
+    "question": "Which professional group is most at risk from deepfake scams?",
+    "options": [
+      "CEOs and executives",
+      "Farmers",
+      "Construction workers",
+      "Students"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Attackers often impersonate leaders to request money or confidential data."
+  },
+  {
+    "id": 34,
+    "question": "Which of these is a smart way to test if a video is real?",
+    "options": [
+      "Play it at slower speed to check for glitches",
+      "Watch only once at normal speed",
+      "Trust the number of likes and shares",
+      "Ask a random online user"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Slowing a video helps reveal unnatural movements and visual glitches."
+  },
+  {
+    "id": 35,
+    "question": "A common deepfake scam is called 'CEO fraud.' What does it involve?",
+    "options": [
+      "Hacking the CEO's social media",
+      "Impersonating a CEO to trick employees into transferring money",
+      "Creating memes about a CEO",
+      "Using the CEO's name in ads"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CEO fraud is a form of business email compromise and deepfake impersonation."
+  },
+  {
+    "id": 36,
+    "question": "Which free tool can help check if a suspicious photo is reused or fake?",
+    "options": [
+      "Google Reverse Image Search",
+      "Microsoft Word",
+      "VLC Media Player",
+      "Calculator"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reverse image search helps detect reused or manipulated images."
+  },
+  {
+    "id": 37,
+    "question": "Which unusual detail might give away a deepfake video?",
+    "options": [
+      "Eyes not aligned with the camera lens",
+      "Natural pauses in speech",
+      "Consistent background sounds",
+      "Smooth head movements"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deepfakes often fail to align eye movements naturally with the camera."
+  },
+  {
+    "id": 38,
+    "question": "You receive a deepfake impersonating you asking for donations. What's your best first response?",
+    "options": [
+      "Deny it online immediately without proof",
+      "Collect screenshots/videos as evidence",
+      "Threaten the attacker publicly",
+      "Share it with family for fun"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Always preserve evidence first to support reports and investigations."
+  },
+  {
+    "id": 39,
+    "question": "If an employee suspects a deepfake phishing attempt, who should they contact?",
+    "options": [
+      "Their colleagues only",
+      "The IT/security team immediately",
+      "The media",
+      "The sender of the message"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reporting to the IT/security team ensures quick containment and response."
+  },
+  {
+    "id": 40,
+    "question": "Why should you avoid oversharing personal videos online?",
+    "options": [
+      "It makes your feed boring",
+      "It provides attackers with training material for deepfakes",
+      "It reduces your followers",
+      "It lowers video quality"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The more video/audio of you online, the easier it is for attackers to train convincing deepfakes."
+  },
+  {
+    "id": 41,
+    "question": "While watching a suspected deepfake, you notice the person's earrings keep changing shape. What does this indicate?",
+    "options": [
+      "Video compression",
+      "A deepfake artifact",
+      "Bad camera focus",
+      "Lighting reflection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfake generators often struggle to render consistent objects like jewelry."
+  },
+  {
+    "id": 42,
+    "question": "A colleague receives a voicemail from 'HR' requesting sensitive documents. The voice sounds robotic. What should they do?",
+    "options": [
+      "Send the documents immediately",
+      "Verify with HR through official channels",
+      "Delete the voicemail silently",
+      "Reply to the voicemail"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfake audio scams often impersonate internal staff—verification is key."
+  },
+  {
+    "id": 43,
+    "question": "Which of these is a quick trick to spot fake audio?",
+    "options": [
+      "Play it at double speed",
+      "Listen for unnatural pauses, monotone pitch, or odd breathing",
+      "Focus only on the background noise",
+      "Trust it if it sounds confident"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AI-generated audio often lacks human rhythm and breathing patterns."
+  },
+  {
+    "id": 44,
+    "question": "You get a suspicious WhatsApp video asking for money. What is the most secure next step?",
+    "options": [
+      "Reply and ask for more proof",
+      "Verify through a trusted, official communication channel",
+      "Forward it to family",
+      "Ignore and delete"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Never trust WhatsApp messages blindly. Always cross-check with verified sources."
+  },
+  {
+    "id": 45,
+    "question": "A deepfake video is most likely to have unnatural…",
+    "options": [
+      "Hair flow",
+      "Eye blinking and lip sync",
+      "Clothing style",
+      "Body height"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Eye and lip synchronization are among the hardest features to fake."
+  },
+  {
+    "id": 46,
+    "question": "If you suspect your company is targeted by a deepfake scam, what should you do first?",
+    "options": [
+      "Alert your IT/security team immediately",
+      "Delete all company emails",
+      "Reply to the suspected attacker",
+      "Ignore it until confirmed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Early reporting enables fast incident response and containment."
+  },
+  {
+    "id": 47,
+    "question": "Which of these unusual patterns in a video can indicate a deepfake?",
+    "options": [
+      "Shadows that don't match lighting",
+      "Smooth background motion",
+      "Clear facial expressions",
+      "Consistent audio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deepfakes often create inconsistent or impossible lighting/shadow effects."
+  },
+  {
+    "id": 48,
+    "question": "Why is oversharing voice notes on social media risky?",
+    "options": [
+      "They take too much storage",
+      "Attackers can use them to train audio deepfakes",
+      "People may get bored",
+      "It reduces your credibility"
+    ],
+    "correctAnswer": 1,
+    "explanation": "More available recordings = more training data for attackers."
+  },
+  {
+    "id": 49,
+    "question": "A team member receives a video message from your 'CEO' instructing a fund transfer. The CEO is traveling abroad. What's the smartest move?",
+    "options": [
+      "Follow the instructions quickly",
+      "Verify using an alternative trusted contact method",
+      "Share the video on social media",
+      "Ignore and hope nothing happens"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Always double-check through a separate channel before acting."
+  },
+  {
+    "id": 50,
+    "question": "A photo on social media shows a person with 6 fingers. What does this suggest?",
+    "options": [
+      "Camera trick",
+      "Deepfake or AI-generated image error",
+      "Medical condition",
+      "Optical illusion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AI image generators often struggle with hands and fingers."
+  },
+  {
+    "id": 51,
+    "question": "Which step can help individuals defend against deepfake scams?",
+    "options": [
+      "Educating themselves about detection techniques",
+      "Ignoring suspicious activity",
+      "Trusting all verified accounts",
+      "Never watching online videos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Awareness training is the best defense."
+  },
+  {
+    "id": 52,
+    "question": "If a celebrity 'endorses' a product in a video but the voice feels off, what should you do?",
+    "options": [
+      "Assume it's real if the product is popular",
+      "Check the celebrity's official channels",
+      "Share to warn others",
+      "Comment on the post"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Always confirm endorsements on official sources before believing."
+  },
+  {
+    "id": 53,
+    "question": "Which of these cues might suggest a deepfake audio recording?",
+    "options": [
+      "Mispronunciations and digital glitches",
+      "Perfect natural flow",
+      "Consistent tone across emotions",
+      "Realistic hesitations"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deepfake audio often has robotic glitches and unnatural speech patterns."
+  },
+  {
+    "id": 54,
+    "question": "What's a safe practice when you see shocking news in video format?",
+    "options": [
+      "Verify with multiple reputable outlets before believing",
+      "Share instantly so others know",
+      "Ignore all videos completely",
+      "Only trust your friends' opinions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Shocking 'news' is often weaponized deepfakes. Verification prevents spread."
+  },
+  {
+    "id": 55,
+    "question": "If your personal photo is used in a deepfake, what's your best first action?",
+    "options": [
+      "Post an angry response online",
+      "Collect evidence and report to the platform",
+      "Ignore and move on",
+      "Share it widely to prove it's fake"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Evidence preservation and reporting are the first protective steps."
+  },
+  {
+    "id": 56,
+    "question": "What does 'media authentication' mean in detecting deepfakes?",
+    "options": [
+      "Checking if media is entertaining",
+      "Verifying source, metadata, and digital watermarking",
+      "Asking random users",
+      "Watching the video multiple times"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Authentication involves metadata, watermarks, and source verification."
+  },
+  {
+    "id": 57,
+    "question": "Which security practice reduces corporate exposure to deepfake fraud?",
+    "options": [
+      "Strict verification policies for fund transfers",
+      "Always trusting video calls",
+      "Allowing employees to act without verification",
+      "Ignoring security awareness training"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Verified approval steps stop deepfake scams from succeeding."
+  },
+  {
+    "id": 58,
+    "question": "If you see a video where a person's lips move but the voice is slightly delayed, this is likely…",
+    "options": [
+      "Poor internet connection",
+      "Deepfake lip-sync mismatch",
+      "Camera lag",
+      "Intentional editing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lip-sync errors are classic signs of deepfakes."
+  },
+  {
+    "id": 59,
+    "question": "Which organization role is most critical in responding to deepfake incidents?",
+    "options": [
+      "Legal, communications, and IT/security teams",
+      "Only social media team",
+      "Only marketing staff",
+      "External contractors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deepfake incidents need legal, PR, and security coordination."
+  },
+  {
+    "id": 60,
+    "question": "Why is it dangerous to download random 'deepfake detection apps' from unverified sources?",
+    "options": [
+      "They may contain malware",
+      "They make videos blurrier",
+      "They slow your phone",
+      "They improve deepfakes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fake apps exploit curiosity and may steal data or install malware."
+  },
+  {
+    "id": 61,
+    "question": "A video shows a famous actor speaking, but their jewelry keeps disappearing between frames. What does this suggest?",
+    "options": [
+      "Video lag",
+      "Deepfake artifact",
+      "Lighting issue",
+      "Editing style"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfakes often fail to consistently render small objects like jewelry."
+  },
+  {
+    "id": 62,
+    "question": "Which of these online tools can you use to check if a suspicious image was used before?",
+    "options": [
+      "Reverse image search (Google/TinEye)",
+      "Text editor",
+      "Music app",
+      "Calendar app"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reverse image search reveals reused/manipulated images."
+  },
+  {
+    "id": 63,
+    "question": "You pause a video and notice one eye looking in a different direction. What does this indicate?",
+    "options": [
+      "Camera angle",
+      "Deepfake rendering flaw",
+      "Normal human behavior",
+      "Reflection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AI often struggles to replicate natural eye alignment."
+  },
+  {
+    "id": 64,
+    "question": "A suspicious video has no shadows under bright sunlight. This is likely…",
+    "options": [
+      "A deepfake",
+      "A high-quality camera",
+      "A filter effect",
+      "Overexposure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Missing or inconsistent shadows are common deepfake giveaways."
+  },
+  {
+    "id": 65,
+    "question": "If you receive a deepfake video targeting your company, which team should handle the first response?",
+    "options": [
+      "PR/Communications",
+      "IT/Security",
+      "Legal",
+      "All of the above working together"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A coordinated response across teams ensures damage control and accountability."
+  },
+  {
+    "id": 66,
+    "question": "A deepfake of a CEO is circulating. What should employees do?",
+    "options": [
+      "Share it internally to warn others",
+      "Report it through official incident channels",
+      "Post personal denials on social media",
+      "Ignore it"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reporting ensures security teams can act quickly."
+  },
+  {
+    "id": 67,
+    "question": "If a suspicious 'breaking news' video appears, what is the safest step?",
+    "options": [
+      "Check multiple credible news outlets",
+      "Share immediately to be first",
+      "Trust if it has millions of views",
+      "Comment for clarification"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cross-verifying with multiple outlets prevents spreading fake news."
+  },
+  {
+    "id": 68,
+    "question": "In a deepfake photo, what common error do hands often show?",
+    "options": [
+      "Extra or missing fingers",
+      "Perfect nail polish",
+      "Clear fingerprints",
+      "Normal hand gestures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AI often struggles with hands and fingers."
+  },
+  {
+    "id": 69,
+    "question": "You notice someone in a video is blinking far less than normal. What does this suggest?",
+    "options": [
+      "Confidence",
+      "Deepfake artifact",
+      "Stage acting",
+      "Lighting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deepfake AI often fails to replicate natural blinking rates."
+  },
+  {
+    "id": 70,
+    "question": "If you receive a deepfake threatening your reputation, what's the priority?",
+    "options": [
+      "Collect evidence, report to platform, contact legal/security",
+      "Post emotional response online",
+      "Ignore it",
+      "Ask friends to argue with the attacker"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Evidence and formal reporting are the safest responses."
+  },
+  {
+    "id": 71,
+    "question": "What is the risk of clicking links inside a deepfake scam message?",
+    "options": [
+      "Malware or phishing attack",
+      "Slower internet",
+      "Lower video quality",
+      "Higher phone bill only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scam links often deliver malware or phishing pages."
+  },
+  {
+    "id": 72,
+    "question": "Which unusual detail in a photo may suggest AI manipulation?",
+    "options": [
+      "Asymmetrical ears",
+      "Blurry teeth",
+      "Inconsistent backgrounds",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "AI errors often appear in faces, teeth, ears, and backgrounds."
+  },
+  {
+    "id": 73,
+    "question": "Which of these is the safest verification practice in a suspected deepfake scam call?",
+    "options": [
+      "Call back using the official number from the website",
+      "Ask the caller to repeat themselves",
+      "Accept the call as genuine if urgent",
+      "Record it and share on social media"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Always verify using official numbers, not the suspicious call."
+  },
+  {
+    "id": 74,
+    "question": "A celebrity endorsement video looks real, but their voice doesn't match. What's the best step?",
+    "options": [
+      "Check their verified social media accounts",
+      "Share the video to friends",
+      "Assume it's edited",
+      "Ignore it"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Verified channels confirm genuine endorsements."
+  },
+  {
+    "id": 75,
+    "question": "In a deepfake video, which movement is hardest for AI to replicate accurately?",
+    "options": [
+      "Head turns and rapid gestures",
+      "Standing still",
+      "Talking quietly",
+      "Smiling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sudden head or body movements often break deepfake illusions."
+  },
+  {
+    "id": 76,
+    "question": "If you suspect a deepfake targeting your friend, what's the most supportive step?",
+    "options": [
+      "Share it widely to warn others",
+      "Help them document and report it",
+      "Make jokes to lighten the situation",
+      "Ignore it"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Supporting victims with evidence collection and reporting is crucial."
+  },
+  {
+    "id": 77,
+    "question": "Which of these is a professional tool for detecting deepfakes?",
+    "options": [
+      "Microsoft Video Authenticator",
+      "Sensity AI",
+      "Deepware Scanner",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Several specialized tools exist to detect manipulated media."
+  },
+  {
+    "id": 78,
+    "question": "Why do attackers prefer targeting executives with deepfakes?",
+    "options": [
+      "Executives have authority to approve money or data transfers",
+      "They are easier to impersonate",
+      "They use social media less",
+      "They don't notice scams"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Executives' decisions carry financial and operational weight."
+  },
+  {
+    "id": 79,
+    "question": "You see a fake video of you posted online. What's a smart communication step?",
+    "options": [
+      "Work with your communications/legal team to release a verified statement",
+      "Post an angry denial alone",
+      "Share the video widely",
+      "Stay silent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A coordinated official statement maintains credibility and control."
+  },
+  {
+    "id": 80,
+    "question": "What does 'zero trust' mean in preventing deepfake attacks?",
+    "options": [
+      "Never trusting any person or media until verified",
+      "Blocking all emails",
+      "Rejecting social media",
+      "Trusting only CEOs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A zero-trust mindset helps prevent social engineering and deepfake manipulation."
+  },
+  {
+    "id": 81,
+    "question": "A deepfake video of Ghana's President giving a false policy statement is released online. What should the first national response be?",
+    "options": [
+      "Issue an official government press release immediately",
+      "Ignore the video",
+      "Wait for the next news cycle",
+      "Block all social media"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quick, official clarification prevents misinformation from spreading widely."
+  },
+  {
+    "id": 82,
+    "question": "A fake deepfake voice note of an ECG official asks customers to send money via MoMo. What's the correct action?",
+    "options": [
+      "Verify with ECG's official customer service",
+      "Send the money quickly",
+      "Share the message with friends",
+      "Ignore and delete immediately"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Always verify through official ECG channels before taking action."
+  },
+  {
+    "id": 83,
+    "question": "Why are deepfakes a threat during Ghana's elections?",
+    "options": [
+      "They can spread false messages and damage candidates' reputations",
+      "They can help improve campaign jingles",
+      "They reduce campaign costs",
+      "They make debates easier"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deepfakes may be used to spread disinformation, incite tension, or manipulate voters."
+  },
+  {
+    "id": 84,
+    "question": "You receive a WhatsApp video of Ghana's Finance Minister announcing an emergency tax. What should you do first?",
+    "options": [
+      "Share it immediately with family",
+      "Verify through official government channels",
+      "Panic and withdraw all your money",
+      "Forward it to news outlets"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Always verify government announcements through official channels before reacting."
+  },
+  {
+    "id": 85,
+    "question": "A deepfake audio of your bank manager asks you to transfer money to a 'secure account' due to fraud. What's the safest response?",
+    "options": [
+      "Transfer the money immediately",
+      "Call your bank using the official number on your card",
+      "Ask for the account details via WhatsApp",
+      "Visit any bank branch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Always verify through official bank channels, never through the suspicious message."
+  },
+  {
+    "id": 86,
+    "question": "During a national emergency, you see a deepfake video of the President giving conflicting evacuation orders. What should you do?",
+    "options": [
+      "Follow the video instructions immediately",
+      "Check official government emergency channels and radio",
+      "Share the video to warn others",
+      "Ignore all evacuation orders"
+    ],
+    "correctAnswer": 1,
+    "explanation": "During emergencies, only trust official government emergency communication channels."
+  },
+  {
+    "id": 87,
+    "question": "A fake video shows a Ghanaian celebrity endorsing a 'get-rich-quick' investment scheme. What's your best action?",
+    "options": [
+      "Invest immediately before others do",
+      "Check the celebrity's verified social media accounts",
+      "Share it with friends to get their opinion",
+      "Assume it's real if it looks professional"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Always verify celebrity endorsements through their official verified accounts."
+  },
+  {
+    "id": 88,
+    "question": "You receive a deepfake voice call from someone claiming to be from Ghana's Cyber Security Authority asking for your personal data. What should you do?",
+    "options": [
+      "Provide the information since it's a government agency",
+      "Hang up and call the official CSA number to verify",
+      "Ask them to send an email first",
+      "Give partial information to test them"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Government agencies have official procedures. Always verify through official channels."
+  },
+  {
+    "id": 89,
+    "question": "A deepfake video of a Ghanaian politician making inflammatory statements about a particular ethnic group goes viral. What's the responsible action?",
+    "options": [
+      "Share it to expose the politician",
+      "Report it to social media platforms and fact-checkers",
+      "Comment angrily on the post",
+      "Ignore it completely"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Report potentially harmful deepfakes to prevent the spread of ethnic tensions and misinformation."
+  },
+  {
+    "id": 90,
+    "question": "You see a deepfake of a Ghanaian religious leader asking for urgent donations for a fake charity. What's the best verification method?",
+    "options": [
+      "Donate immediately to help",
+      "Contact the religious organization directly through official channels",
+      "Ask friends if they've seen it too",
+      "Check if the video has many likes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Verify charitable requests through the official organization, not through the suspicious video."
+  },
+  {
+    "id": 91,
+    "question": "A fake audio message claims to be from MTN Ghana announcing free data for everyone. What should you do?",
+    "options": [
+      "Forward it to all your contacts",
+      "Check MTN's official website and social media",
+      "Call the customer service number in the message",
+      "Assume it's real and wait for the free data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Verify promotional offers through official company channels, not suspicious messages."
+  },
+  {
+    "id": 92,
+    "question": "During Ghana's election period, you receive a deepfake video of a candidate making promises they never made. What's your civic duty?",
+    "options": [
+      "Share it to inform other voters",
+      "Report it to the Electoral Commission and fact-checkers",
+      "Use it to argue with supporters of that candidate",
+      "Keep it for future reference"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Protecting electoral integrity requires reporting false information to proper authorities."
+  },
+  {
+    "id": 93,
+    "question": "A deepfake of the Bank of Ghana Governor announces a sudden currency devaluation. What's the appropriate response?",
+    "options": [
+      "Rush to exchange all your cedis immediately",
+      "Verify through Bank of Ghana's official channels",
+      "Share the news with traders at the market",
+      "Start buying foreign currency"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Financial announcements must be verified through official central bank channels to avoid market panic."
+  },
+  {
+    "id": 94,
+    "question": "You receive a deepfake video of a Ghanaian chief making land allocation announcements. What's the proper verification process?",
+    "options": [
+      "Contact the traditional council directly",
+      "Assume it's real since it's from a chief",
+      "Share it with community members",
+      "Start making land payments immediately"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Land matters require verification through proper traditional and legal channels."
+  },
+  {
+    "id": 95,
+    "question": "A fake video shows a Ghanaian health official announcing a new disease outbreak in your area. What's your first step?",
+    "options": [
+      "Panic and avoid going outside",
+      "Check Ghana Health Service official channels",
+      "Share it to warn your neighbors",
+      "Buy medical supplies immediately"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Health emergencies require verification through official health authorities to avoid unnecessary panic."
+  },
+  {
+    "id": 96,
+    "question": "You see a deepfake of a Ghanaian university vice-chancellor announcing fake admission results. What should students do?",
+    "options": [
+      "Celebrate or worry based on the video",
+      "Check the university's official portal and website",
+      "Share the video with classmates",
+      "Call the phone number mentioned in the video"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Academic announcements should only be trusted through official university channels."
+  },
+  {
+    "id": 97,
+    "question": "A deepfake audio of a Ghanaian police commander gives false security instructions during a crisis. What's the safe response?",
+    "options": [
+      "Follow the instructions immediately",
+      "Verify through official police channels and emergency services",
+      "Share it with your community WhatsApp group",
+      "Ignore all security instructions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Security instructions must be verified through official police and emergency channels."
+  },
+  {
+    "id": 98,
+    "question": "You receive a deepfake of a Ghanaian telecom CEO announcing that all SIM cards will be blocked. What's the correct action?",
+    "options": [
+      "Rush to the telecom office immediately",
+      "Check the telecom company's official website and customer service",
+      "Forward the message to warn others",
+      "Start looking for a new network provider"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Service announcements should be verified through official company channels."
+  },
+  {
+    "id": 99,
+    "question": "A fake video of Ghana's Education Minister announces sudden school closures. What should parents do?",
+    "options": [
+      "Keep children home immediately",
+      "Contact the school and check Ghana Education Service official channels",
+      "Share the video in parent WhatsApp groups",
+      "Wait to see what other parents do"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Educational policy changes must be verified through official education authorities and schools."
+  },
+  {
+    "id": 100,
+    "question": "What is the most important lesson for building long-term resilience against deepfakes in Ghana?",
+    "options": [
+      "Never trust any video or audio message",
+      "Always verify information through multiple official sources before acting",
+      "Only believe messages from family members",
+      "Avoid using social media completely"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The key to deepfake resilience is developing a habit of verification through official, trusted sources before taking any action."
+  }
+]

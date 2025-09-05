@@ -18,6 +18,7 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<{ [key: number]: number }>({});
   const [showExplanation, setShowExplanation] = useState(false);
+  const [answerFeedback, setAnswerFeedback] = useState<{ show: boolean; isCorrect: boolean; explanation: string }>({ show: false, isCorrect: false, explanation: '' });
 
   useEffect(() => {
     // Randomly select 10 questions
@@ -48,13 +49,25 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
     if (!currentQuestion) return;
     
     const questionId = currentQuestion.id;
+    // Prevent changing answer if already answered
+    if (userAnswers[questionId] !== undefined) return;
+    
     setUserAnswers(prev => ({ ...prev, [questionId]: optionIndex }));
+    
+    // Show immediate feedback
+    const isCorrect = optionIndex === currentQuestion.correctAnswer;
+    setAnswerFeedback({
+      show: true,
+      isCorrect,
+      explanation: currentQuestion.explanation
+    });
   };
 
   const handleNext = () => {
     if (currentQuestionIndex < selectedQuestions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
       setShowExplanation(false);
+      setAnswerFeedback({ show: false, isCorrect: false, explanation: '' });
     }
   };
 
@@ -62,8 +75,24 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex(prev => prev - 1);
       setShowExplanation(false);
+      setAnswerFeedback({ show: false, isCorrect: false, explanation: '' });
     }
   };
+
+  // Check if current question is answered and show feedback
+  useEffect(() => {
+    if (currentQuestion && userAnswers[currentQuestion.id] !== undefined) {
+      const userAnswer = userAnswers[currentQuestion.id];
+      const isCorrect = userAnswer === currentQuestion.correctAnswer;
+      setAnswerFeedback({
+        show: true,
+        isCorrect,
+        explanation: currentQuestion.explanation
+      });
+    } else {
+      setAnswerFeedback({ show: false, isCorrect: false, explanation: '' });
+    }
+  }, [currentQuestion, userAnswers]);
 
   const handleSubmitQuiz = () => {
     let score = 0;
@@ -319,6 +348,7 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(12px, 2vw, 16px)' }}>
             {currentQuestion.options.map((option, index) => {
               const isSelected = userAnswers[currentQuestion.id] === index;
+              const isAnswered = userAnswers[currentQuestion.id] !== undefined;
               
               return (
                 <label
@@ -329,7 +359,7 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
                     padding: 'clamp(16px, 4vw, 20px) clamp(20px, 5vw, 24px)',
                     border: `2px solid ${isSelected ? '#ee7441' : '#e2e8f0'}`,
                     borderRadius: 'clamp(12px, 3vw, 16px)',
-                    cursor: 'pointer',
+                    cursor: isAnswered ? 'not-allowed' : 'pointer',
                     backgroundColor: isSelected ? '#fef7f0' : 'white',
                     transition: 'all 0.3s ease',
                     boxShadow: isSelected 
@@ -338,10 +368,11 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
                     transform: isSelected ? 'translateY(-2px)' : 'translateY(0)',
                     position: 'relative',
                     overflow: 'hidden',
-                    minHeight: '44px'
+                    minHeight: '44px',
+                    opacity: isAnswered && !isSelected ? 0.6 : 1
                   }}
                   onMouseOver={(e) => {
-                    if (!isSelected) {
+                    if (!isSelected && !isAnswered) {
                       e.currentTarget.style.borderColor = '#fbbf24';
                       e.currentTarget.style.backgroundColor = '#fffbeb';
                       e.currentTarget.style.transform = 'translateY(-1px)';
@@ -349,7 +380,7 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
                     }
                   }}
                   onMouseOut={(e) => {
-                    if (!isSelected) {
+                    if (!isSelected && !isAnswered) {
                       e.currentTarget.style.borderColor = '#e2e8f0';
                       e.currentTarget.style.backgroundColor = 'white';
                       e.currentTarget.style.transform = 'translateY(0)';
@@ -362,6 +393,7 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
                     name={`question-${currentQuestion.id}`}
                     checked={isSelected}
                     onChange={() => handleAnswerSelect(index)}
+                    disabled={isAnswered}
                     style={{ 
                       marginRight: 'clamp(12px, 3vw, 16px)', 
                       transform: 'scale(1.3)',
@@ -391,6 +423,55 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ onQuizComplete }) => {
               );
             })}
           </div>
+
+          {/* Answer Feedback */}
+          {answerFeedback.show && (
+            <div style={{
+              marginTop: '20px',
+              padding: '20px',
+              backgroundColor: answerFeedback.isCorrect ? '#065f46' : '#dc2626',
+              borderRadius: '8px',
+              position: 'relative'
+            }}>
+              <button
+                onClick={() => setAnswerFeedback({ show: false, isCorrect: false, explanation: '' })}
+                style={{
+                  position: 'absolute',
+                  top: '10px',
+                  right: '15px',
+                  background: 'none',
+                  border: 'none',
+                  color: 'white',
+                  fontSize: '18px',
+                  cursor: 'pointer',
+                  padding: '0',
+                  width: '20px',
+                  height: '20px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+                }}
+              >
+                ×
+              </button>
+              <h3 style={{
+                 color: 'white',
+                 fontSize: '16px',
+                 fontWeight: '600',
+                 margin: '0 0 10px 0'
+               }}>
+                 {answerFeedback.isCorrect ? '✓ Great, that was the correct answer!' : '✗ Oops, that\'s not the correct answer...'}
+               </h3>
+               <p style={{
+                 color: 'white',
+                 fontSize: '14px',
+                 margin: 0,
+                 lineHeight: '1.5'
+               }}>
+                 {answerFeedback.explanation}
+               </p>
+            </div>
+          )}
         </div>
 
         {/* Navigation buttons */}
